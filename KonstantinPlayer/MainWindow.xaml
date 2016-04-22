@@ -1,0 +1,14 @@
+﻿<Window x:Class="KonstantinPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KonstantinPlayer"
+        mc:Ignorable="d"
+        Title="Константин плеер" Height="394.738" Width="527.632"
+        Loaded="Window_Loaded"
+        KeyUp="Window_KeyUp">
+    <Grid Margin="0,0,0,-1">
+        <MediaElement x:Name="mediaElement" MouseUp="mediaElement_MouseUp"/>
+    </Grid>
+</Window>
